@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bokkirangsarang</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+        .bg-1 {
+        background-color: red;
+        color: white;
+        }
+        .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        }
+        .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        }
+        .navbar-nav li a:hover{
+        color: red !important;
+        }
+        body {
+        font: 20px "Roboto Condensed", sans-serif;
+        line-height: 1.8;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+        <div class="container">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="bokki.html">Bokkirangsarang</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="ourcompany.html">Our Company</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="customers'voice.html">Customers' Voice</a></li>
+                    </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav> 
+        <div class="container bg-1 text-center">
+            <h3>Delivery Service - YupGi Tteokbokki</h3>
+        </div>
+        <div class="container-fluid bg-2 text-left">
+            <h3>Where Do You Live?</h3>
+            <p>Please write down your address here.</p>
+            <form>
+                <fieldset>
+                        <textarea name="message" style="width:600px; height:50px"></textarea>
+                        <br>
+                </fieldset>
+            </form> 
+        </div>
+        <div class="container-fluid bg-3 text-left">
+            <h3>What Kind of Menu Would You Like?</h3>
+            <p>Please write down menu here.</p>
+            <form>
+                <fieldset>
+                        <textarea name="message" style="width:600px; height:50px"></textarea>
+                        <br>
+                </fieldset>
+            </form>
+            <button type="submit" onclick="alert('Submit!')">Submit</button> 
+        </div>
+    </body>
+</html>
